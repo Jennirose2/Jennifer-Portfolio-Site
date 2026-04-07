@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Minimalist Architectural Portfolio — edit content.js to customize",
+  "scripts": {
+    "dev": "npx -y serve .",
+    "start": "npx -y serve .",
+    "build": "echo 'Static site — no build needed'"
+  }
+}

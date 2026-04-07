@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Architectural Portfolio | Minimalist Design</title>
+    <meta name="description" content="A clean, minimalist architectural portfolio featuring a project gallery, detail views, and a contact section.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo" id="site-logo"></a>
+            <ul class="nav-links" id="nav-links">
+                <!-- Populated from content.js -->
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <h1 class="hero-title" id="hero-title"></h1>
+                <p class="hero-subtitle" id="hero-subtitle"></p>
+                <a href="#projects" class="btn-primary" id="hero-btn"></a>
+            </div>
+            <div class="hero-image">
+                <img id="hero-image" src="" alt="" referrerPolicy="no-referrer">
+            </div>
+        </section>
+
+        <section id="projects" class="projects container">
+            <div class="section-header">
+                <span class="section-label" id="projects-label"></span>
+                <h2 class="section-title" id="projects-title"></h2>
+            </div>
+            <div class="project-grid" id="project-grid">
+                <!-- Project cards populated from content.js -->
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-label" id="about-label"></span>
+                    <h2 class="section-title" id="about-title"></h2>
+                    <div id="about-paragraphs">
+                        <!-- Paragraphs populated from content.js -->
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img id="about-image" src="" alt="" referrerPolicy="no-referrer">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label" id="contact-label"></span>
+                    <h2 class="section-title" id="contact-title"></h2>
+                    <div class="contact-details" id="contact-details">
+                        <!-- Contact details populated from content.js -->
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" id="form-name-label"></label>
+                        <input type="text" id="name" name="name" placeholder="" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" id="form-email-label"></label>
+                        <input type="email" id="email" name="email" placeholder="" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" id="form-message-label"></label>
+                        <textarea id="message" name="message" rows="5" placeholder="" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit" id="form-submit-btn"></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <div class="footer-bottom">
+            <p id="footer-copyright"></p>
+            <div class="social-links" id="social-links">
+                <!-- Social links populated from content.js -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
