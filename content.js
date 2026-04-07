@@ -101,7 +101,7 @@ const SITE_CONTENT = {
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true",
       images: [
         "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true",
-        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image5.png?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image9.png?raw=true",
         "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true"
       ]
     }
