@@ -115,8 +115,8 @@ const SITE_CONTENT = {
     },
     inquiries: {
       label: "Inquiries",
-      email: "hello@studioarch.com",
-      phone: "+1 (301)473-6759"
+      email: "Jennifer.monterrosa89@gmail.com",
+      phone: "+1 (301) 473-6759"
     },
     // Form field labels
     form: {
