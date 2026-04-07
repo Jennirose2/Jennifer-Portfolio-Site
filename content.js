@@ -116,7 +116,7 @@ const SITE_CONTENT = {
     inquiries: {
       label: "Inquiries",
       email: "hello@studioarch.com",
-      phone: "+1 (212) 555-0123"
+      phone: "+1 (301)473-6759"
     },
     // Form field labels
     form: {
