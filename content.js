@@ -40,7 +40,7 @@ const SITE_CONTENT = {
     subtitle: "A 2022 to 2026 Timeline.",
     buttonText: "View Projects",
     buttonLink: "#projects",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070",
+    image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image5.png?raw=true",
     imageAlt: "Modern Architecture"
   },
 
