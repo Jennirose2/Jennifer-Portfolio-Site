@@ -72,10 +72,10 @@ const SITE_CONTENT = {
       year: "Fall 2026",
       location: "Amagansett, New York",
       description: "Emphasis on the use of form and materiality | Production through revit with the challenge of unknown measurements and need to model.",
-      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true",
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image13.jpg?raw=true",
       images: [
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image13.jpg?raw=true",
         "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true",
-        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true",
         "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image5.png?raw=true"
       ]
     },
