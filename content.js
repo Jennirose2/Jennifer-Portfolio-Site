@@ -83,7 +83,7 @@ const SITE_CONTENT = {
       year: "Spring 2024",
       location: "Washington, DC",
       description: "An intervention for the need of entertainment and civic space | Focus on the use of SketchUP | Visualization of element flow.",
-      image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1000"
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true"
     }
   ],
 
@@ -95,8 +95,8 @@ const SITE_CONTENT = {
     // Use <br> for line breaks
     title: "Simplicity is the <br>ultimate sophistication.",
     paragraphs: [
-      "We believe that architecture should be a silent backdrop to life. Our studio focuses on the essential, removing the superfluous to reveal the inherent beauty of materials, light, and form.",
-      "Founded in 2015, we have completed over 50 projects across three continents, each reflecting our commitment to sustainable and minimalist design."
+      "Inspired by Adolf Loos critique that ornament in architecture obstructs social progress.",
+      "Yet ornamenting structures with the surrounding flora."
     ],
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1000",
     imageAlt: "Architectural Detail"
