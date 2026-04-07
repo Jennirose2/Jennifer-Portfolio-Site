@@ -36,7 +36,7 @@ const SITE_CONTENT = {
   // ──────────────────────────────────────────────
   hero: {
     // Use <br> for line breaks, <span class="italic"> for italic text
-    title: 'Crafting <br><span class="italic">Timeless</span> Spaces',
+    title: 'Evolving <br><span class="italic">Projects</span> Through Time',
     subtitle: "Minimalist architectural solutions that harmonize with nature and human experience.",
     buttonText: "View Projects",
     buttonLink: "#projects",
