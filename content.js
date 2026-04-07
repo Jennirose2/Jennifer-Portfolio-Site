@@ -70,19 +70,19 @@ const SITE_CONTENT = {
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true"
     },
     {
-      title: "Glass House",
-      category: "Residential",
-      year: "2024",
-      location: "Aspen, Colorado",
-      description: "A transparent retreat in the mountains. The structure is designed to disappear into the landscape, providing panoramic views while maintaining a minimal environmental footprint.",
-      image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1000"
+      title: "Multipurpose Space",
+      category: "Commercial",
+      year: "Winter 2026",
+      location: "Baltimore, Maryland",
+      description: "Urban sustainability project | Core requirements: Energy saving, Atrium space, Indoor vending, and Office space.",
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image6.jpg?raw=true"
     },
     {
-      title: "Urban Loft",
-      category: "Interior",
-      year: "2023",
-      location: "New York, NY",
-      description: "A conversion of an industrial warehouse into a minimalist living space. The design preserves original structural elements while introducing clean, modern interventions.",
+      title: "Harbor Plaza",
+      category: "Assembly",
+      year: "Spring 2024",
+      location: "Washington, DC",
+      description: "An intervention for the need of entertainment and civic space | Focus on the use of SketchUP | Visualization of element flow.",
       image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1000"
     }
   ],
