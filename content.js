@@ -67,7 +67,7 @@ const SITE_CONTENT = {
       year: "Fall 2026",
       location: "Amagansett, New York",
       description: "Emphasis on the use of form and materiality. Production through revit with the challenge of unknown measurements and need to model.",
-      image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000"
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image2.jpg?raw=true"
     },
     {
       title: "Glass House",
