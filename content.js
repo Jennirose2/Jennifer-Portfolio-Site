@@ -37,7 +37,7 @@ const SITE_CONTENT = {
   hero: {
     // Use <br> for line breaks, <span class="italic"> for italic text
     title: 'Evolving <br><span class="italic">Projects</span> Through Time',
-    subtitle: "Minimalist architectural solutions that harmonize with nature and human experience.",
+    subtitle: "A 2022 to 2026 Timeline.",
     buttonText: "View Projects",
     buttonLink: "#projects",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070",
@@ -54,11 +54,11 @@ const SITE_CONTENT = {
   // Each project needs: title, category, year, location, description, image
   projects: [
     {
-      title: "Villa Minimal",
+      title: "Goatbarn Lane",
       category: "Residential",
-      year: "2023",
-      location: "Kyoto, Japan",
-      description: "A serene residential project focusing on the integration of indoor and outdoor spaces. The design uses natural materials like cedar and stone to create a sense of tranquility.",
+      year: "Summer 2025",
+      location: "Boulder, Colorado",
+      description: "Project focused on documentation and projecting elements via revit | Structural components such as steel beams, flooring, framing, etc.",
       image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000"
     },
     {
