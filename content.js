@@ -62,11 +62,11 @@ const SITE_CONTENT = {
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true"
     },
     {
-      title: "Concrete Pavilion",
-      category: "Public Space",
-      year: "2022",
-      location: "Berlin, Germany",
-      description: "An exploration of raw concrete and light. This public pavilion serves as a community gathering space, with carefully placed apertures that track the sun throughout the day.",
+      title: "Gwathmey House",
+      category: "Residential",
+      year: "Fall 2026",
+      location: "Amagansett, New York",
+      description: "Emphasis on the use of form and materiality. Production through revit with the challenge of unknown measurements and need to model.",
       image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000"
     },
     {
