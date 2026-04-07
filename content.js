@@ -51,7 +51,7 @@ const SITE_CONTENT = {
   projectsTitle: "Project Gallery",
 
   // Add, remove, or edit projects here!
-  // Each project needs: title, category, year, location, description, image
+  // Each project needs: title, category, year, location, description, image, images
   projects: [
     {
       title: "Goatbarn Lane",
@@ -59,7 +59,12 @@ const SITE_CONTENT = {
       year: "Summer 2025",
       location: "Boulder, Colorado",
       description: "Project focused on documentation and projecting elements via revit | Structural components such as steel beams, flooring, framing, etc.",
-      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true"
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true",
+      images: [
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image6.jpg?raw=true"
+      ]
     },
     {
       title: "Gwathmey House",
@@ -67,7 +72,12 @@ const SITE_CONTENT = {
       year: "Fall 2026",
       location: "Amagansett, New York",
       description: "Emphasis on the use of form and materiality | Production through revit with the challenge of unknown measurements and need to model.",
-      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true"
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true",
+      images: [
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image5.png?raw=true"
+      ]
     },
     {
       title: "Multipurpose Space",
@@ -75,7 +85,12 @@ const SITE_CONTENT = {
       year: "Winter 2026",
       location: "Baltimore, Maryland",
       description: "Urban sustainability project | Core requirements: Energy saving, Atrium space, Indoor vending, and Office space.",
-      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image6.jpg?raw=true"
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image6.jpg?raw=true",
+      images: [
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image6.jpg?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image8.png?raw=true"
+      ]
     },
     {
       title: "Harbor Plaza",
@@ -83,7 +98,12 @@ const SITE_CONTENT = {
       year: "Spring 2024",
       location: "Washington, DC",
       description: "An intervention for the need of entertainment and civic space | Focus on the use of SketchUP | Visualization of element flow.",
-      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true"
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true",
+      images: [
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image5.png?raw=true",
+        "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image3.jpg?raw=true"
+      ]
     }
   ],
 

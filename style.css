@@ -1,15 +1,15 @@
 /* 
    Minimalist Architectural Portfolio Styles
-   Palette: Beige (#F5F2ED), Black (#1A1A1A), White (#FFFFFF)
+   Palette: Light Pink (#FFE8F2), Plum (#3B1738), White (#FFFFFF)
 */
 
 :root {
-    --bg-color: #F5F2ED;
-    --text-primary: #1A1A1A;
-    --text-secondary: #666666;
-    --accent-color: #1A1A1A;
+    --bg-color: #FFE8F2;
+    --text-primary: #3B1738;
+    --text-secondary: #6F4D68;
+    --accent-color: #D85AA3;
     --white: #FFFFFF;
-    --border-color: rgba(26, 26, 26, 0.1);
+    --border-color: rgba(216, 90, 163, 0.25);
     --font-sans: 'Inter', sans-serif;
     --font-serif: 'Cormorant Garamond', serif;
     --container-width: 1200px;
@@ -70,10 +70,43 @@ h1, h2, h3 {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(245, 242, 237, 0.9);
+    background: rgba(255, 232, 242, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
     border-bottom: 1px solid var(--border-color);
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: var(--accent-color);
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.8rem;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-5px);
+    background: #b53f7f;
+}
+
+.btn-submit {
+    background: var(--accent-color);
+    color: var(--white);
+    border: none;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background: #b53f7f;
 }
 
 .nav {
@@ -215,7 +248,7 @@ h1, h2, h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(26, 26, 26, 0.4);
+    background: rgba(216, 90, 163, 0.35);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -332,22 +365,6 @@ h1, h2, h3 {
     border-color: var(--text-primary);
 }
 
-.btn-submit {
-    background: var(--accent-color);
-    color: var(--white);
-    border: none;
-    padding: 1rem 3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.8rem;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.btn-submit:hover {
-    background: #333;
-}
-
 /* Footer */
 .footer {
     padding: 4rem 0;
@@ -393,10 +410,10 @@ h1, h2, h3 {
 
 .modal-content {
     background-color: var(--bg-color);
-    margin: 5% auto;
-    padding: 4rem;
-    width: 80%;
-    max-width: 1000px;
+    margin: 3% auto;
+    padding: 3rem;
+    width: 90%;
+    max-width: 1100px;
     position: relative;
     animation: modalFadeIn 0.5s;
 }
@@ -417,13 +434,34 @@ h1, h2, h3 {
 
 .modal-body-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.modal-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.modal-gallery .gallery-item:first-child {
+    grid-column: 1 / -1;
+    min-height: 420px;
+}
+
+.modal-gallery .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 20px 50px rgba(59, 23, 56, 0.12);
 }
 
 .modal-body-content img {
     width: 100%;
     height: auto;
+    border-radius: 1rem;
 }
 
 .modal-info h2 {

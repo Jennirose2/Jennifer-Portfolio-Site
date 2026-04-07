@@ -112,10 +112,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const project = C.projects[projectIndex];
         if (!project) return;
 
+        const galleryImages = project.images && project.images.length ? project.images : [project.image];
+        const galleryMarkup = galleryImages.map((imgUrl, idx) => `
+            <div class="gallery-item">
+                <img src="${imgUrl}" alt="${project.title} image ${idx + 1}" referrerPolicy="no-referrer">
+            </div>
+        `).join('');
+
         modalBody.innerHTML = `
             <div class="modal-body-content">
-                <div class="modal-image">
-                    <img src="${project.image}" alt="${project.title}" referrerPolicy="no-referrer">
+                <div class="modal-gallery">
+                    ${galleryMarkup}
                 </div>
                 <div class="modal-info">
                     <span class="section-label">Selected Project</span>
