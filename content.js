@@ -59,7 +59,7 @@ const SITE_CONTENT = {
       year: "Summer 2025",
       location: "Boulder, Colorado",
       description: "Project focused on documentation and projecting elements via revit | Structural components such as steel beams, flooring, framing, etc.",
-      image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000"
+      image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true"
     },
     {
       title: "Concrete Pavilion",
