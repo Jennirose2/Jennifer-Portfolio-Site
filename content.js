@@ -98,7 +98,7 @@ const SITE_CONTENT = {
       "Inspired by Adolf Loos critique that ornament in architecture obstructs social progress.",
       "Yet ornamenting structures with the surrounding flora."
     ],
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1000",
+    image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image8.png?raw=true",
     imageAlt: "Architectural Detail"
   },
 
