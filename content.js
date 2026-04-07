@@ -19,8 +19,8 @@ const SITE_CONTENT = {
   // ──────────────────────────────────────────────
   //  SITE BRANDING
   // ──────────────────────────────────────────────
-  siteName: "STUDIO",        // First part of your logo
-  siteNameBold: "ARCH",      // Bold part of your logo
+  siteName: "ROSE",        // First part of your logo
+  siteNameBold: "ARCH Portfolio",      // Bold part of your logo
   pageTitle: "Architectural Portfolio | Minimalist Design",
 
   // Navigation links (you can rename these)
@@ -109,12 +109,11 @@ const SITE_CONTENT = {
     label: "03 / Connect",
     title: "Let's build <br>something together.",
     address: {
-      label: "Studio Address",
-      line1: "123 Minimalist Way, Design District",
-      line2: "New York, NY 10001"
+      label: "Address",
+      line1: "Frederick, MD",
     },
     inquiries: {
-      label: "Inquiries",
+      label: "For Inquiries",
       email: "Jennifer.monterrosa89@gmail.com",
       phone: "+1 (301) 473-6759"
     },
