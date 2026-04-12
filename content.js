@@ -57,8 +57,7 @@ const SITE_CONTENT = {
       title: "Goatbarn Lane",
       category: "Residential",
       year: "Summer 2025",
-      location: "Boulder, Colorado",
-      class: "ARCH 472" 
+      location: "Boulder, Colorado", 
       description: "Project focused on documentation and projecting elements via revit | Structural components such as steel beams, flooring, framing, etc.",
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true",
       images: [
