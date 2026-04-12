@@ -58,6 +58,7 @@ const SITE_CONTENT = {
       category: "Residential",
       year: "Summer 2025",
       location: "Boulder, Colorado",
+      class: "ARCH 472" 
       description: "Project focused on documentation and projecting elements via revit | Structural components such as steel beams, flooring, framing, etc.",
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true",
       images: [
