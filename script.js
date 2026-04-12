@@ -134,29 +134,71 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!project) return;
 
         const galleryImages = project.images && project.images.length ? project.images : [project.image];
-        const galleryMarkup = galleryImages.map((imgUrl, idx) => `
-            <div class="gallery-item">
-                <img src="${imgUrl}" alt="${project.title} image ${idx + 1}" referrerPolicy="no-referrer">
-            </div>
-        `).join('');
+        let currentImageIndex = 0;
 
-        modalBody.innerHTML = `
-            <div class="modal-body-content">
-                <div class="modal-gallery">
-                    ${galleryMarkup}
+        const updateGallery = () => {
+            const currentImage = galleryImages[currentImageIndex];
+            modalBody.innerHTML = `
+                <div class="modal-body-content">
+                    <div class="modal-gallery">
+                        <div class="gallery-container">
+                            <img src="${currentImage}" alt="${project.title} image ${currentImageIndex + 1}" referrerPolicy="no-referrer" class="gallery-image">
+                            ${galleryImages.length > 1 ? `
+                                <button class="gallery-arrow gallery-arrow-prev" ${currentImageIndex === 0 ? 'disabled' : ''}>&larr;</button>
+                                <button class="gallery-arrow gallery-arrow-next" ${currentImageIndex === galleryImages.length - 1 ? 'disabled' : ''}>&rarr;</button>
+                            ` : ''}
+                        </div>
+                        ${galleryImages.length > 1 ? `
+                            <div class="gallery-indicators">
+                                ${galleryImages.map((_, idx) => `<span class="indicator ${idx === currentImageIndex ? 'active' : ''}" data-index="${idx}"></span>`).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                    <div class="modal-info">
+                        <span class="section-label">Selected Project</span>
+                        <h2>${project.title}</h2>
+                        <p>${project.description}</p>
+                        <ul class="modal-meta">
+                            <li><strong>Category</strong> ${project.category}</li>
+                            <li><strong>Year</strong> ${project.year}</li>
+                            <li><strong>Location</strong> ${project.location}</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="modal-info">
-                    <span class="section-label">Selected Project</span>
-                    <h2>${project.title}</h2>
-                    <p>${project.description}</p>
-                    <ul class="modal-meta">
-                        <li><strong>Category</strong> ${project.category}</li>
-                        <li><strong>Year</strong> ${project.year}</li>
-                        <li><strong>Location</strong> ${project.location}</li>
-                    </ul>
-                </div>
-            </div>
-        `;
+            `;
+
+            // Add event listeners for arrows
+            const prevBtn = modalBody.querySelector('.gallery-arrow-prev');
+            const nextBtn = modalBody.querySelector('.gallery-arrow-next');
+            const indicators = modalBody.querySelectorAll('.indicator');
+
+            if (prevBtn) {
+                prevBtn.addEventListener('click', () => {
+                    if (currentImageIndex > 0) {
+                        currentImageIndex--;
+                        updateGallery();
+                    }
+                });
+            }
+
+            if (nextBtn) {
+                nextBtn.addEventListener('click', () => {
+                    if (currentImageIndex < galleryImages.length - 1) {
+                        currentImageIndex++;
+                        updateGallery();
+                    }
+                });
+            }
+
+            indicators.forEach((indicator, idx) => {
+                indicator.addEventListener('click', () => {
+                    currentImageIndex = idx;
+                    updateGallery();
+                });
+            });
+        };
+
+        updateGallery();
         modal.style.display = 'block';
         document.body.style.overflow = 'hidden';
     };

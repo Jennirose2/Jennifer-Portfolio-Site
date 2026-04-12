@@ -463,10 +463,10 @@ h1, h2, h3 {
 
 .modal-content {
     background-color: var(--bg-color);
-    margin: 3% auto;
+    margin: 2% auto;
     padding: 3rem;
-    width: 90%;
-    max-width: 1100px;
+    width: 95%;
+    max-width: 1400px;
     position: relative;
     animation: modalFadeIn 0.5s;
 }
@@ -487,28 +487,93 @@ h1, h2, h3 {
 
 .modal-body-content {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 3rem;
     align-items: start;
 }
 
 .modal-gallery {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.modal-gallery .gallery-item:first-child {
-    grid-column: 1 / -1;
-    min-height: 420px;
-}
-
-.modal-gallery .gallery-item img {
+.gallery-container {
+    position: relative;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 800px;
+    margin-bottom: 1rem;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
     border-radius: 1rem;
     box-shadow: 0 20px 50px rgba(59, 23, 56, 0.12);
+}
+
+.gallery-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-arrow:hover:not(:disabled) {
+    background: var(--white);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.gallery-arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.gallery-arrow-prev {
+    left: 1rem;
+}
+
+.gallery-arrow-next {
+    right: 1rem;
+}
+
+.gallery-indicators {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(59, 23, 56, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator.active {
+    background: var(--text-primary);
+    transform: scale(1.2);
+}
+
+.indicator:hover {
+    background: var(--text-secondary);
 }
 
 .modal-body-content img {
@@ -613,4 +678,33 @@ h1, h2, h3 {
     }
     .hero-title { font-size: 3rem; }
     .footer-bottom { flex-direction: column; gap: 2rem; text-align: center; }
+    
+    /* Modal responsive styles */
+    .modal-content {
+        width: 95%;
+        margin: 1% auto;
+        padding: 2rem 1rem;
+    }
+    
+    .gallery-container {
+        max-width: 100%;
+    }
+    
+    .gallery-image {
+        max-height: 400px;
+    }
+    
+    .gallery-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+    
+    .gallery-arrow-prev {
+        left: 0.5rem;
+    }
+    
+    .gallery-arrow-next {
+        right: 0.5rem;
+    }
 }
