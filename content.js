@@ -56,7 +56,7 @@ const SITE_CONTENT = {
     {
       title: "Goatbarn Lane",
       category: "Residential",
-      year: "Summer 2025",
+      year: "Summer 2025 | ARCH 472",
       location: "Boulder, Colorado", 
       description: "Project focused on documentation and projecting elements via revit | Structural components such as steel beams, flooring, framing, etc.",
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image1.jpg?raw=true",
@@ -69,7 +69,7 @@ const SITE_CONTENT = {
     {
       title: "Gwathmey House",
       category: "Residential",
-      year: "Fall 2026",
+      year: "Fall 2026 | ARCH 470",
       location: "Amagansett, New York",
       description: "Emphasis on the use of form and materiality | Production through revit with the challenge of unknown measurements and need to model.",
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image13.jpg?raw=true",
@@ -82,7 +82,7 @@ const SITE_CONTENT = {
     {
       title: "Multipurpose Space",
       category: "Commercial",
-      year: "Winter 2026",
+      year: "Winter 2026 | ARCH 418J",
       location: "Baltimore, Maryland",
       description: "Urban sustainability project | Core requirements: Energy saving, Atrium space, Indoor vending, and Office space.",
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image6.jpg?raw=true",
@@ -95,7 +95,7 @@ const SITE_CONTENT = {
     {
       title: "Harbor Plaza",
       category: "Assembly",
-      year: "Spring 2024",
+      year: "Spring 2024 | ARCH 400",
       location: "Washington, DC",
       description: "An intervention for the need of entertainment and civic space | Focus on the use of SketchUP | Visualization of element flow.",
       image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image7.png?raw=true",
