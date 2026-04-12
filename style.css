@@ -7,7 +7,7 @@
     --bg-color: #FFE8F2;
     --text-primary: #3B1738;
     --text-secondary: #6F4D68;
-    --accent-color: #D85AA3;
+    --accent-color: #cb7facc0;
     --white: #FFFFFF;
     --border-color: rgba(216, 90, 163, 0.25);
     --font-sans: 'Inter', sans-serif;
@@ -287,7 +287,7 @@ h1, h2, h3 {
 
 /* Home Section */
 #home {
-    background: #c13a86;
+    background: #c77aa5;
     color: #ffffff;
 }
 
