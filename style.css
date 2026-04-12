@@ -285,10 +285,38 @@ h1, h2, h3 {
     letter-spacing: 0.05em;
 }
 
+/* Home Section */
+#home {
+    background: #c13a86;
+    color: #ffffff;
+}
+
+#home .section-label,
+#home .section-title,
+#home .hero-subtitle,
+#home .btn-primary {
+    color: #ffffff;
+}
+
+#home .btn-primary {
+    background: #ff93c9;
+}
+
+#home .btn-primary:hover {
+    background: #e36aa4;
+}
+
 /* About Section */
 .about {
     padding: 10rem 0;
-    background: var(--white);
+    background: #c13a86;
+    color: #ffffff;
+}
+
+#about .section-label,
+#about .section-title,
+#about .about-text p {
+    color: #ffffff;
 }
 
 .about-grid {
@@ -298,10 +326,35 @@ h1, h2, h3 {
     align-items: center;
 }
 
-.about-text p {
+/* Contact Section */
+#contact {
+    padding: 10rem 0;
+    background: #ffffff;
+}
+
+#contact .contact-info,
+#contact .contact-details,
+#contact .section-title,
+#contact .section-label {
+    color: var(--text-primary);
+}
+
+.contact-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+}
+
+.contact-action .btn-fill-form {
+    padding: 1.5rem 4rem;
+    min-width: 360px;
+}
+
+#about .about-text p {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    color: var(--text-secondary);
+    color: #ffffff;
 }
 
 .about-image img {

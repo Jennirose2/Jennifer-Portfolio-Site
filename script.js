@@ -82,13 +82,34 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
 
     // ── Contact Form ──
-    document.getElementById('form-name-label').textContent = C.contact.form.nameLabel;
-    document.getElementById('name').placeholder = C.contact.form.namePlaceholder;
-    document.getElementById('form-email-label').textContent = C.contact.form.emailLabel;
-    document.getElementById('email').placeholder = C.contact.form.emailPlaceholder;
-    document.getElementById('form-message-label').textContent = C.contact.form.messageLabel;
-    document.getElementById('message').placeholder = C.contact.form.messagePlaceholder;
-    document.getElementById('form-submit-btn').textContent = C.contact.form.submitText;
+    const formNameLabel = document.getElementById('form-name-label');
+    if (formNameLabel) {
+        formNameLabel.textContent = C.contact.form.nameLabel;
+    }
+    const formNameInput = document.getElementById('name');
+    if (formNameInput) {
+        formNameInput.placeholder = C.contact.form.namePlaceholder;
+    }
+    const formEmailLabel = document.getElementById('form-email-label');
+    if (formEmailLabel) {
+        formEmailLabel.textContent = C.contact.form.emailLabel;
+    }
+    const formEmailInput = document.getElementById('email');
+    if (formEmailInput) {
+        formEmailInput.placeholder = C.contact.form.emailPlaceholder;
+    }
+    const formMessageLabel = document.getElementById('form-message-label');
+    if (formMessageLabel) {
+        formMessageLabel.textContent = C.contact.form.messageLabel;
+    }
+    const formMessageInput = document.getElementById('message');
+    if (formMessageInput) {
+        formMessageInput.placeholder = C.contact.form.messagePlaceholder;
+    }
+    const formSubmitBtn = document.getElementById('form-submit-btn');
+    if (formSubmitBtn) {
+        formSubmitBtn.textContent = C.contact.form.submitText;
+    }
 
     // ── Footer ──
     document.getElementById('footer-copyright').innerHTML = C.footer.copyright;
