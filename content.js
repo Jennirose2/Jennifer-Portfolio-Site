@@ -36,8 +36,8 @@ const SITE_CONTENT = {
   // ──────────────────────────────────────────────
   hero: {
     // Use <br> for line breaks, <span class="italic"> for italic text
-    title: 'Evolving <br><span class="italic">Projects</span> Through Time',
-    subtitle: "A 2022 to 2026 Timeline.",
+    title: 'Design Student of the University of Maryland',
+    subtitle: "Began in 2022.",
     buttonText: "View Projects",
     buttonLink: "#projects",
     image: "https://github.com/Jennirose2/Jennifer-Portfolio-Site/blob/main/Image5.png?raw=true",
